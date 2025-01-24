@@ -1,14 +1,19 @@
 {
-  "name": "portfolio",
+  "name": "project",
   "version": "1.0.0",
-  "description": "generates portfolio",
+  "description": "",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {
+    "lib": "lib"
   },
-  "author": "MG",
+  "scripts": {
+    "test": "node ./test/sample.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^12.3.2"
+    "inquirer": "^8.2.4"
   }
 }
